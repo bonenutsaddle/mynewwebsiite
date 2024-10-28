@@ -1,0 +1,172 @@
+.main-col-border {
+    border: 1.5px solid #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.whiteboneproduct-img {
+    border: 1px solid #21211f;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 250px;
+    cursor: pointer;
+}
+
+.whiteboneproduct-img:hover {
+    border: 1px solid #ECB709;
+    -webkit-transition: border .2s;
+    transition: border .2s;
+    border-radius: 5px;
+}
+
+.whiteboneproduct-img img {
+    border-radius: 5%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: .5rem;
+}
+
+.bone-shaped-1 img {
+    object-fit: fill !important;
+}
+
+/* white bone nut product details page  */
+
+.bonewhitecard img {
+    object-fit: fill;
+    height: 270px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.whitebone-enq-btn {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    color: white;
+}
+
+.whitebone-enq-btn button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.whitebone-enq-btn1 {
+    background-color: rgb(249, 197, 28);
+    color: black;
+}
+
+
+
+.whitebone-enq-btn1:hover {
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+
+.whitebone-enq-btn2 {
+    background-color: black;
+    padding: 10px 30px !important;
+}
+
+.whitebone-enq-btn2:hover {
+    background-color: rgb(249, 197, 28);
+    color: black;
+    transition: .5s;
+}
+
+.bonenutslider .slick-prev {
+    display: none !important;
+}
+
+.bonenutslider .slick-next {
+    display: none !important;
+}
+
+
+/* EnquiryForm */
+
+.popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.popup h2 {
+    margin-top: 0;
+}
+
+.popup button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popup button:hover {
+    background-color: #3e8e41;
+}
+
+/* ImageFullView.jsx */
+
+.page-view {
+    width: 70%;
+    margin: 0 auto;
+    height: 80%;
+}
+
+.page-view .swiper-slide img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  /* margin: 20px 0; */
+;
+}
+
+.pagination button {
+  /* background-color: #333; */
+  color: white;
+  border: none;
+  /* padding: 10px 20px; */
+  /* margin: 0 5px; */
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  /* background-color: #888; */
+  cursor: not-allowed;
+}
+
+.pagination span {
+  align-self: center;
+}
+
+
+
+.box-shadow-bg{
+    transition: 0.2s;
+}
+
+.box-shadow-bg:hover{
+    border: 1px solid rgb(249, 197, 28);
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

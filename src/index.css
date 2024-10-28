@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(249, 197, 28);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 3px;
+}
+
+body {
+    overflow-x: visible;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    z-index: 1111;
+
+}
+
+.whatsapp-icon .whtasapp {
+    position: relative;
+    z-index: 222;
+    cursor: pointer;
+}
+
+.whatsapp-icon .whtasapp span img {
+    height: 45px;
+    width: 45px;
+
+}
+
+.whatsapp-icon .whtasapp .whatsapp-chat {
+    position: absolute;
+    top: 0px;
+    right: 65px;
+    background-color: rgb(38 225 38);
+    font-size: 14px;
+    color: black;
+    padding: 6px 13px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s linear;
+}
+
+.whatsapp-icon .whtasapp:hover .whatsapp-chat {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(3px);
+
+}
+
+.whatsapp-icon .whtasapp .whatsapp-chat::before {
+    position: absolute;
+    content: "";
+    height: 19px;
+    width: 15px;
+    background-color: rgb(38 225 38);
+    bottom: 6px;
+    right: -12%;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+.whatsapp-icon .whtasapp span img {
+    animation: zoom-in-zoom-out 2s ease-out infinite;
+
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+
+/* Responsive Desig  */
+@media only screen and (max-width: 1023px) and (min-width: 648px) {
+  .loader-container {
+    padding-left: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 647px) and (min-width: 350px) {
+    .whatsapp-icon {
+        right: 5%;
+        z-index: 11111111111;
+        bottom: 20px;
+    }
+    .loader-container {
+      padding-left: 0 !important;
+    }
+
+}
+
+body {
+    padding-top: 80px;
+}
+
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  z-index: 1000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  flex-direction: row;
+  /* gap: 2rem; */
+padding-left: 25%;
+  }
+  .newlogo {
+    width: 250px;
+    height: 200px; 
+    margin-right: 25rem;
+    background: #fff;
+  padding: 0px 15px;
+    border-radius: 10px;
+  }
+  .loader-box {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, #0005);
+  }
+  
+  .loader-box .loader {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    animation: animateLoading 2s linear infinite;
+  }
+  
+  .loader-box .loader:nth-child(2),
+  .loader-box .loader:nth-child(4) {
+    animation-delay: -1s;
+    filter: hue-rotate(290deg);
+  }
+  
+  @keyframes animateLoading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .loader-box .loader:nth-child(1)::before,
+  .loader-box .loader:nth-child(2)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to top, transparent, rgba(0, 255, 249, 0.5));
+    background-size: 100px 180px;
+    background-repeat: no-repeat;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+  }
+  
+  .loader-container .loader i {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    background: #00fff9;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9,
+      0 0 40px #00fff9, 0 0 50px #00fff9, 0 0 60px #00fff9, 0 0 70px #00fff9,
+      0 0 80px #00fff9, 0 0 90px #00fff9, 0 0 100px #00fff9;
+    z-index: 10;
+  }
+  
+  .loader-box .loader span {
+    position: absolute;
+    inset: 20px;
+    background: #000;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  

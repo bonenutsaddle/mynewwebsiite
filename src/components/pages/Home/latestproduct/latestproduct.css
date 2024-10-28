@@ -1,0 +1,146 @@
+.container-latest-p {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+}
+
+.card-latest-p {
+    grid-column: span 12;
+}
+
+@media (max-width: 640px) {
+    .container-latest-p {
+        justify-items: center;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+    .card-latest-p {
+        grid-column: span 6;
+    }
+}
+
+@media (min-width: 961px) {
+    .card-latest-p {
+        grid-column: span 4;
+    }
+}
+
+.latest-product-container {
+    background-color: #21211f;
+    padding: 50px 100px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.latest-text-start {
+    color: rgb(236, 183, 9);
+}
+
+.hr-line {
+    border: 1px solid #fff;
+    height: 2px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.latest-product-section {
+    margin: 8rem 50px 0px 50px;
+}
+
+.container-latest-p {
+    /* display: flex; */
+    gap: 40px;
+}
+
+.card-latest-p {
+    position: relative;
+    height: 250px;
+    /* box-shadow: 5px 5px 20px; */
+    overflow-x: hidden !important;
+    /* cursor: pointer; */
+}
+
+.intro-latest-p {
+    position: absolute;
+    height: 60px;
+    width: 350px;
+    bottom: 0;
+    overflow: hidden;
+    padding: 0px;
+    color: #fff;
+    background-color: rgba(27, 27, 27, .5);
+    transition: .4s ease-in-out;
+}
+
+.card-latest-p:hover .intro-latest-p {
+    height: 250px;
+    bottom: 0;
+    padding-top: 10px;
+    background-color: #000;
+}
+
+.card-latest-p:hover .text-p {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card-latest-p:hover img {
+    transform: scale(1);
+}
+
+.card-latest-p img {
+    height: 250px;
+    width: 350px;
+    /* object-fit: cover !important; */
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    transition: transform .4s ease-in-out;
+}
+
+.text-h1 {
+    margin: 10px;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.text-p {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0px 10px;
+    text-align: justify;
+    visibility: hidden;
+    opacity: 0;
+    padding-right: 50px;
+}
+
+.more-product-btn {
+    padding: 8px 10px;
+    background-color: #fff;
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.more-product-btn:hover {
+    background-color: rgb(182, 142, 11);
+    color: white;
+    font-weight: 300;
+    transition: .3s;
+}
+
+.card-latest-p:hover.latestproduct-button {
+    transform: scale(1.1) rotate(-3deg);
+}
+
+.card-latest-p:hover .latestproduct-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all ease-in-out .8s;
+}

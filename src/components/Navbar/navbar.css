@@ -1,0 +1,30 @@
+.hover-dropdown-item {
+    width: 99%;
+    left: 5px;
+}
+
+.after-dropdown {
+    margin-left: 50%;
+}
+
+.sticky {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar1 {
+    z-index: 1000 !important;
+    position: fixed !important;
+    top: 0 !important;
+}
+
+select:not([size]) {
+    padding-right: 0.5rem !important;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+   select:not([size]) {
+    padding-right: 7rem !important;
+} 
+}

@@ -1,0 +1,13 @@
+.swiper-btn-auto .swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    background-color: black !important;
+    color: white;
+    border-radius: 50px;
+}
+
+.swiper-btn-auto .swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    background-color: black !important;
+    color: white;
+    border-radius: 50px;
+}

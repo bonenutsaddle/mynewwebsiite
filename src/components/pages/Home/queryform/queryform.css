@@ -1,0 +1,16 @@
+.react-international-phone-country-selector-button {
+    background-color: rgb(30 66 159) !important;
+}
+
+.react-international-phone-input-container .react-international-phone-input {
+    background-color: rgb(30 66 159);
+    border: none;
+    color: white;
+    width: 100% !important;
+}
+
+.react-international-phone-input-container .react-international-phone-input:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
