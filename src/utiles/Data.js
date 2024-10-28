@@ -1,21 +1,99 @@
 const OurProductData = [
   {
-    id:0,
+    id: 0,
+    img: require("../assets/ourproductsimages/guitarcomp.png"),
+    name: "Guitar Componenets",
+    subname: "Nut, Saddles, Pics, Bridge Pics, Sliders & Inlay In Bone & Horn"
+  },
+  {
+    id: 1,
     img: require("../assets/ourproductsimages/DSC_0046.png"),
-    name:"Knife Handle",
-    subname:"Bone, Horn, Wood, X-grip & Recon stone"
+    name: "Knife Handle",
+    subname: "Bone, Horn, Wood, X-grip & Recon stone"
   },
   {
-    id:1,
-    img: require("../assets/ourproductsimages/DSC_0054-removebg-preview.png"),
-    name:"Razor Handles",
-    subname:"Handles & Blank Handles"
+    id: 2,
+    img: require("../assets/ourproductsimages/vikingcraft.png"),
+    name: "Viking Craft",
+    subname: "Combs, Drinking Horn, Bone Dice, Etc."
   },
   {
-    id:2,
+    id: 3,
+    img: require("../assets/ourproductsimages/NAtive.png"),
+    name: "Native American Craft",
+    subname: "Bone & Horn "
+  },
+  {
+    id: 4,
     img: require("../assets/ourproductsimages/DSC_0001.png"),
-    name:"Teflon Bone Folder",
-    subname:"Bone, Horn, Wood & Teflon"
+    name: "Teflon Bone Folder",
+    subname: "Bone, Horn, Wood & Teflon"
+  },
+  {
+    id: 5,
+    img: require("../assets/ourproductsimages/cuestickcomponet.png"),
+    name: "Cue Stick Components",
+    subname: "Ferrules, Joint Collar, Butt Caps, Inlay Slabs & Rods and Dowels All Are in Bone & Horn"
+  },
+  {
+    id: 6,
+    img: require("../assets/ourproductsimages/beadscraft.png"),
+    name: "Beads Crafts",
+    subname: "Pandent, Horn Beads, Bone Beads, Wood Beads, Glass Beads Etc..."
+  },
+  {
+    id: 6,
+    img: require("../assets/ourproductsimages/boneclasp.png"),
+    name: "Bone Clasps",
+    subname: "Bone Clasps..."
+  },
+  {
+    id: 7,
+    img: require("../assets/ourproductsimages/horn-bone-spoon.png"),
+    name: "Horn Cutlery Spoon",
+    subname: "Horn Spoon ..."
+  },
+  {
+    id: 8,
+    img: require("../assets/ourproductsimages/piono-organs.png"),
+    name: "Piano & Organ Keys",
+    subname: "Only In Bone ..."
+  },
+  {
+    id: 8,
+    img: require("../assets/ourproductsimages/homedecor.png"),
+    name: "Home Decor",
+    subname: "Bone, Horn & Wood Items ..."
+  },
+  {
+    id: 9,
+    img: require("../assets/ourproductsimages/bone-buttons.png"),
+    name: "Bone Button",
+    subname: "Bone Items ..."
+  },
+  {
+    id: 10,
+    img: require("../assets/ourproductsimages/bonedominoes.png"),
+    name: "Dominoes Set",
+    subname: "Bone & Horn Items ..."
+  },
+  {
+    id: 11,
+    img: require("../assets/ourproductsimages/knife-handle.png"),
+    name: "Antique Knife Handles",
+    subname: "Bone & Horn Items ..."
+  },
+  {
+    id: 12,
+    img: require("../assets/ourproductsimages/shoe-horn.png"),
+    name: "Shoe Horn",
+    subname: "In Bone, Horn, & Wood Matter"
+  },
+  {
+    id: 13,
+    img: require("../assets/ourproductsimages/pen-blank.png"),
+    name: "Pen Blank & Turning Scale",
+    subname: "In Bone, Horn, Wood, X-Grip & Recon Stone"
   },
 ]
 
@@ -572,7 +650,7 @@ const ConstantData = [
             name: "Bridge Pin Bone With Ablone Eye",
             size1: "All Size Available",
             size2: "All Size Available",
-            images: [require("../assets/guitar-components/bp1.jpg"),require("../assets/guitar-components/bp51.jpg")]
+            images: [require("../assets/guitar-components/bp1.jpg"), require("../assets/guitar-components/bp51.jpg")]
           },
           {
             prodId: "BP-002",
@@ -593,72 +671,72 @@ const ConstantData = [
             name: "Rose Wood Palin Bridge Pin",
             size1: "All Size Available",
             size2: "All Size Available",
-            images: [require("../assets/guitar-components/bp4.jpg"),require("../assets/guitar-components/bp41.jpg"),require("../assets/guitar-components/bp42.jpg")]
+            images: [require("../assets/guitar-components/bp4.jpg"), require("../assets/guitar-components/bp41.jpg"), require("../assets/guitar-components/bp42.jpg")]
           },
           {
             prodId: "BP-005",
             name: "Acoustic Bone Bridge ",
             size1: "Pin -3 Mm Abalone Dot .215",
             size2: "(5.46mm) 5degrèe Taper",
-            images: [require("../assets/guitar-components/bp0005.jpg"),require("../assets/guitar-components/bp52.jpg"),require("../assets/guitar-components/bp53.jpg")]
+            images: [require("../assets/guitar-components/bp0005.jpg"), require("../assets/guitar-components/bp52.jpg"), require("../assets/guitar-components/bp53.jpg")]
           },
           {
             prodId: "BP-006",
             name: "MOP Dot Buffalo Horn Bridge",
             size1: "Pin -3mm .203",
             size2: "(5.15mm) 3degrèe Taper",
-            images: [require("../assets/guitar-components/bp6.jpg"),require("../assets/guitar-components/bp61.jpg"),require("../assets/guitar-components/bp62.jpg")]
+            images: [require("../assets/guitar-components/bp6.jpg"), require("../assets/guitar-components/bp61.jpg"), require("../assets/guitar-components/bp62.jpg")]
           },
           {
             prodId: "BP-007",
             name: "MOP Dot Buffalo Horn Bridge",
             size1: "Pin -3mm .210",
             size2: "(5.33mm) -3degrèe Taper",
-            images: [require("../assets/guitar-components/bp7.jpg"),require("../assets/guitar-components/bp71.jpg")]
+            images: [require("../assets/guitar-components/bp7.jpg"), require("../assets/guitar-components/bp71.jpg")]
           },
           {
             prodId: "BP-008",
             name: "Bone Bridge Pins Abalone Dot",
             size1: "Pin -3mm .210",
             size2: "(5.33mm) 3degrèe Taper",
-            images: [require("../assets/guitar-components/bp8.jpg"),require("../assets/guitar-components/bp81.jpg"),require("../assets/guitar-components/bp82.jpg")]
+            images: [require("../assets/guitar-components/bp8.jpg"), require("../assets/guitar-components/bp81.jpg"), require("../assets/guitar-components/bp82.jpg")]
           },
           {
             prodId: "BP-009",
             name: "Bone Bridge Pins Abalone Dot",
             size1: "Pin -3mm .203",
             size2: "(5.15mm) 3 Degree Taper",
-            images: [require("../assets/guitar-components/bp9.jpg"),require("../assets/guitar-components/bp91.jpg")]
+            images: [require("../assets/guitar-components/bp9.jpg"), require("../assets/guitar-components/bp91.jpg")]
           },
           {
             prodId: "BP-0010",
             name: "Bone Bridge Pin With Abalone Dot",
             size1: "Pin -3mm .220",
             size2: "(5.58mm) 5 Degree Taper",
-            images: [require("../assets/guitar-components/bp10.jpg"),require("../assets/guitar-components/bp101.jpg")]
+            images: [require("../assets/guitar-components/bp10.jpg"), require("../assets/guitar-components/bp101.jpg")]
           },
           {
             prodId: "BP-0011",
             name: "Guitar Bridge Pin",
             size1: "All Size Available",
             size2: "All Size Available",
-            images: [require("../assets/guitar-components/gep2.webp"),require("../assets/guitar-components/gb002.jpg"),require("../assets/guitar-components/gp003.jpg")]
+            images: [require("../assets/guitar-components/gep2.webp"), require("../assets/guitar-components/gb002.jpg"), require("../assets/guitar-components/gp003.jpg")]
           },
           {
             prodId: "BP-0012",
             name: "Horn Bridge Pin Palin",
             size1: "All Size Available",
             size2: "All Size Available",
-            images: [require("../assets/guitar-components/bp111.jpg"),require("../assets/guitar-components/bp121.jpg")]
+            images: [require("../assets/guitar-components/bp111.jpg"), require("../assets/guitar-components/bp121.jpg")]
           },
           {
             prodId: "BP-0013",
             name: "Horn Bridge Pin Abalone Dot",
             size1: "All Size Available",
             size2: "All Size Available",
-            images: [require("../assets/guitar-components/hbpa1.jpg"),require("../assets/guitar-components/hbpw1.jpg")]
+            images: [require("../assets/guitar-components/hbpa1.jpg"), require("../assets/guitar-components/hbpw1.jpg")]
           },
-         
+
           {
             prodId: "BP-0014",
             name: "Ebony Wood Bridge Pin With Diamond Cut Stone Eye",
@@ -671,7 +749,7 @@ const ConstantData = [
             name: "Guitar Bridge Pin Brass",
             size1: "All Size Available",
             size2: "All Size Available",
-            images: [require("../assets/guitar-components/gbbrass1.jpg"),require("../assets/guitar-components/gbbrass2.jpg")]
+            images: [require("../assets/guitar-components/gbbrass1.jpg"), require("../assets/guitar-components/gbbrass2.jpg")]
           },
           {
             prodId: "BP-0016",
@@ -743,7 +821,7 @@ const ConstantData = [
             size2: "All Size Available",
             images: [require("../assets/guitar-components/bpb8.jpg"),]
           },
-          
+
         ],
       },
       {
@@ -756,11 +834,11 @@ const ConstantData = [
             name: "Bone Natural",
             size1: "All Size Available",
             size2: "All Size Available",
-            images: [require("../assets/guitar-components/gep1.jpg"),require("../assets/guitar-components/gep3.jpg"),require("../assets/guitar-components/gep4.jpg")]
+            images: [require("../assets/guitar-components/gep1.jpg"), require("../assets/guitar-components/gep3.jpg"), require("../assets/guitar-components/gep4.jpg")]
           },
         ],
       },
-    
+
     ]
   },
   // Guitar Inlay & Guitar Inlay Bids Both page data single
@@ -1470,56 +1548,56 @@ const ConstantData = [
             name: "dyed pick jigged green jigged bone",
             size1: " India",
             size2: "100% camel bone scales",
-            images: [require("../assets/guitar-components/djb45.1.jpg"),require("../assets/guitar-components/djb45.2.jpg")]
+            images: [require("../assets/guitar-components/djb45.1.jpg"), require("../assets/guitar-components/djb45.2.jpg")]
           },
           {
             prodId: "DJB-RC-23",
             name: "amber stag bone",
             size1: " India",
             size2: "100% camel bone scales",
-            images: [require("../assets/guitar-components/djb46.1.jpg"),require("../assets/guitar-components/djb46.2.jpg"),require("../assets/guitar-components/djb46.3.jpg")]
+            images: [require("../assets/guitar-components/djb46.1.jpg"), require("../assets/guitar-components/djb46.2.jpg"), require("../assets/guitar-components/djb46.3.jpg")]
           },
           {
             prodId: "DJB-RC-24",
             name: "amber pick jigged bone",
             size1: " India",
             size2: "100% camel bone scales",
-            images: [require("../assets/guitar-components/djb47.1.jpg"),require("../assets/guitar-components/djb47.2.jpg"),require("../assets/guitar-components/djb47.3.jpg")]
+            images: [require("../assets/guitar-components/djb47.1.jpg"), require("../assets/guitar-components/djb47.2.jpg"), require("../assets/guitar-components/djb47.3.jpg")]
           },
           {
             prodId: "DJB-RC-25",
             name: "red pick jigged bone",
             size1: " India",
             size2: "100% camel bone scales",
-            images: [require("../assets/guitar-components/djb48.1.jpg"),require("../assets/guitar-components/djb48.2.jpg")]
+            images: [require("../assets/guitar-components/djb48.1.jpg"), require("../assets/guitar-components/djb48.2.jpg")]
           },
           {
             prodId: "DJB-RC-26",
             name: "grooved jigged bone",
             size1: " India",
             size2: "100% camel bone scales",
-            images: [require("../assets/guitar-components/djb49.1.jpg"),require("../assets/guitar-components/djb49.2.jpg")]
+            images: [require("../assets/guitar-components/djb49.1.jpg"), require("../assets/guitar-components/djb49.2.jpg")]
           },
           {
             prodId: "DJB-RC-27",
             name: "amber s-stag bone",
             size1: " India",
             size2: "100% camel bone scales",
-            images: [require("../assets/guitar-components/djb50.1.jpg"),require("../assets/guitar-components/djb50.2.jpg"),require("../assets/guitar-components/djb50.3.jpg")]
+            images: [require("../assets/guitar-components/djb50.1.jpg"), require("../assets/guitar-components/djb50.2.jpg"), require("../assets/guitar-components/djb50.3.jpg")]
           },
           {
             prodId: "DJB-RC-28",
             name: "natural winter bottom jigged bone",
             size1: " India",
             size2: "100% camel bone scales",
-            images: [require("../assets/guitar-components/djb51.1.jpg"),require("../assets/guitar-components/djb51.2.jpg")]
+            images: [require("../assets/guitar-components/djb51.1.jpg"), require("../assets/guitar-components/djb51.2.jpg")]
           },
           {
             prodId: "DJB-RC-29",
             name: "yellow amber stag bone",
             size1: " India",
             size2: "100% camel bone scales",
-            images: [require("../assets/guitar-components/djb52.1.jpg"),require("../assets/guitar-components/djb52.2.jpg"),require("../assets/guitar-components/djb52.3.jpg")]
+            images: [require("../assets/guitar-components/djb52.1.jpg"), require("../assets/guitar-components/djb52.2.jpg"), require("../assets/guitar-components/djb52.3.jpg")]
           },
           {
             prodId: "DJB-RC-30",
@@ -1533,14 +1611,14 @@ const ConstantData = [
             name: "Camel Bone Burnt Impala Jigged Bone",
             size1: " India",
             size2: "100% camel bone scales",
-            images: [require("../assets/guitar-components/djb54.1.jpg"),require("../assets/guitar-components/djb54.2.jpg"),require("../assets/guitar-components/djb54.3.jpg"),require("../assets/guitar-components/djb54.4.jpg")]
+            images: [require("../assets/guitar-components/djb54.1.jpg"), require("../assets/guitar-components/djb54.2.jpg"), require("../assets/guitar-components/djb54.3.jpg"), require("../assets/guitar-components/djb54.4.jpg")]
           },
           {
             prodId: "DJB-RC-32",
             name: "Stag Bone Jigged Natural",
             size1: " India",
             size2: "100% camel bone scales",
-            images: [require("../assets/guitar-components/djb55.1.jpg"),require("../assets/guitar-components/djb55.2.jpg"),require("../assets/guitar-components/djb55.3.jpg"),require("../assets/guitar-components/djb55.4.jpg")]
+            images: [require("../assets/guitar-components/djb55.1.jpg"), require("../assets/guitar-components/djb55.2.jpg"), require("../assets/guitar-components/djb55.3.jpg"), require("../assets/guitar-components/djb55.4.jpg")]
           },
         ],
       },
@@ -2154,28 +2232,28 @@ const ConstantData = [
             name: "X-Grip-Pearls Blue Sapphire",
             size1: " India",
             size2: "100% Original Handles",
-            images: [require("../assets/guitar-components/z38.1.jpg"), require("../assets/guitar-components/z38.2.jpg"),require("../assets/guitar-components/z38.3.jpg"), require("../assets/guitar-components/z38.4.jpg")],
+            images: [require("../assets/guitar-components/z38.1.jpg"), require("../assets/guitar-components/z38.2.jpg"), require("../assets/guitar-components/z38.3.jpg"), require("../assets/guitar-components/z38.4.jpg")],
           },
           {
             prodId: "RC-XGH-16",
             name: "X-Grip-Pearls Matte Yellow",
             size1: " India",
             size2: "100% Original Handles",
-            images: [require("../assets/guitar-components/z39.1.jpg"), require("../assets/guitar-components/z39.2.jpg"),require("../assets/guitar-components/z39.3.jpg")],
+            images: [require("../assets/guitar-components/z39.1.jpg"), require("../assets/guitar-components/z39.2.jpg"), require("../assets/guitar-components/z39.3.jpg")],
           },
           {
             prodId: "RC-XGH-17",
             name: "X-Grip-Pearls Pink",
             size1: " India",
             size2: "100% Original Handles",
-            images: [require("../assets/guitar-components/z40.1.jpg"), require("../assets/guitar-components/z40.2.jpg"),require("../assets/guitar-components/z40.3.jpg")],
+            images: [require("../assets/guitar-components/z40.1.jpg"), require("../assets/guitar-components/z40.2.jpg"), require("../assets/guitar-components/z40.3.jpg")],
           },
           {
             prodId: "RC-XGH-18",
             name: "X-Grip-Pearls Dark Grey",
             size1: " India",
             size2: "100% Original Handles",
-            images: [require("../assets/guitar-components/z41.1.jpg"), require("../assets/guitar-components/z41.2.jpg"),require("../assets/guitar-components/z41.3.jpg")],
+            images: [require("../assets/guitar-components/z41.1.jpg"), require("../assets/guitar-components/z41.2.jpg"), require("../assets/guitar-components/z41.3.jpg")],
           },
           {
             prodId: "RC-XGH-19",
@@ -2589,7 +2667,7 @@ const ConstantData = [
         id: 351,
         img: require("../assets/guitar-components/wbwe-home.jpg"),
         title: "White Bone With Engraving",
-        wsize: ["4″x5/16″-(102x16mm)", "5″x3/4″x(125x19mm)", "6″x3/7″x(150x19mm)", "6″x-150mm, 7″x-178mm", "6″x3/4″(150x19mm)", "7″x7/8″(178x22mm)", "8″x7/8″(200x22mm)","9″x7/8″(200x22mm)","More Sizes Available As per requirement"],
+        wsize: ["4″x5/16″-(102x16mm)", "5″x3/4″x(125x19mm)", "6″x3/7″x(150x19mm)", "6″x-150mm, 7″x-178mm", "6″x3/4″(150x19mm)", "7″x7/8″(178x22mm)", "8″x7/8″(200x22mm)", "9″x7/8″(200x22mm)", "More Sizes Available As per requirement"],
         usbData: [
           {
             prodId: "RC-WBWE-01",
@@ -3277,21 +3355,21 @@ const ConstantData = [
             name: "Unknown Name",
             size1: "10x3mm (68+ Pieces)",
             size2: "All Size available",
-            images: [require("../assets/guitar-components/bhf32.1.jpg"),require("../assets/guitar-components/bhf32.2.jpg"),require("../assets/guitar-components/bhf32.3.jpg")]
+            images: [require("../assets/guitar-components/bhf32.1.jpg"), require("../assets/guitar-components/bhf32.2.jpg"), require("../assets/guitar-components/bhf32.3.jpg")]
           },
           {
             prodId: "RC-BHB-33",
             name: "Brown bone beads in rich shades",
             size1: "All Size available",
             size2: "All Size available",
-            images: [require("../assets/guitar-components/bhf33.1.jpg"),require("../assets/guitar-components/bhf33.2.jpg")]
+            images: [require("../assets/guitar-components/bhf33.1.jpg"), require("../assets/guitar-components/bhf33.2.jpg")]
           },
           {
             prodId: "RC-BHB-34",
             name: "Unknown Name",
             size1: "All Size available",
             size2: "All Size available",
-            images: [require("../assets/guitar-components/bhf34.1.jpg"),require("../assets/guitar-components/bhf34.2.jpg")]
+            images: [require("../assets/guitar-components/bhf34.1.jpg"), require("../assets/guitar-components/bhf34.2.jpg")]
           },
           {
             prodId: "RC-BHB-35",
@@ -3312,7 +3390,7 @@ const ConstantData = [
             name: "Unknown Name",
             size1: "All Size available",
             size2: "All Size available",
-            images: [require("../assets/guitar-components/bhf37.1.jpg"),require("../assets/guitar-components/bhf37.2.jpg")]
+            images: [require("../assets/guitar-components/bhf37.1.jpg"), require("../assets/guitar-components/bhf37.2.jpg")]
           },
           {
             prodId: "RC-BHB-38",
@@ -3519,7 +3597,7 @@ const ConstantData = [
             size2: "100% Buffalo Horn Dominoes",
             images: [require("../assets/guitar-components/baffalohorndominoesfront2.png.png"), require("../assets/guitar-components/baffalohorndominoesfront1.png"), require("../assets/guitar-components/baffalohorndominoesfront2.11.jpg")]
           },
-         
+
 
         ],
       },
@@ -3607,10 +3685,10 @@ const ConstantData = [
         ],
       },
       {
-        id:472,
+        id: 472,
         img: require("../assets/guitar-components/umbd01.png"),
         title: "Unique Medieval Bone Dominoes",
-        size2:"100% Bone Dominoes",
+        size2: "100% Bone Dominoes",
         wsize: ["The dominos are approx 1.25x0.6.", "Set Of dominoes double six(28 Pieces) and dominoes double nine(55 Pieces).", "Ethically Sourced: Made from ethically sourced buffalo bone, ensuring a guilt-free gaming experience.", " 48 mm long x 23 mm wide x 8 mm", "thickness,(in inches 1.899″ x .930″ x.318″)", "48 mm long x 23 mm wide x  6 mm", "thickness (in Inches  1.899″ x .930″ x1/4″)", "48 mm long x 23 mm wide x  4.5 mm", "thickness (in Inches  1.899″ x .930″ x 3/16″)", "More Sizes Available As per requirement"],
         usbData: [
           {
@@ -3722,21 +3800,21 @@ const ConstantData = [
             name: "White Bone Shoe Horn With Square Chord",
             size1: "All size available",
             size2: "10″(Inch), 8″(Inch), 7″(Inch)",
-            images: [require("../assets/guitar-components/boneshoehorn2.jpg"),require("../assets/guitar-components/boneshoehorn2.1.jpg"),require("../assets/guitar-components/boneshoehorn2.2.jpg"),require("../assets/guitar-components/boneshoehorn2.3.jpg")]
+            images: [require("../assets/guitar-components/boneshoehorn2.jpg"), require("../assets/guitar-components/boneshoehorn2.1.jpg"), require("../assets/guitar-components/boneshoehorn2.2.jpg"), require("../assets/guitar-components/boneshoehorn2.3.jpg")]
           },
           {
             prodId: "RC-BSH-03",
             name: "Green Bone Shoe Horn With Square Chord",
             size1: "All size available",
             size2: "10″(Inch), 8″(Inch), 7″(Inch)",
-            images: [require("../assets/guitar-components/boneshoehorn3.1.jpg"),require("../assets/guitar-components/boneshoehorn3.2.jpg"),require("../assets/guitar-components/boneshoehorn3.3.jpg"),require("../assets/guitar-components/boneshoehorn3.4.jpg")]
+            images: [require("../assets/guitar-components/boneshoehorn3.1.jpg"), require("../assets/guitar-components/boneshoehorn3.2.jpg"), require("../assets/guitar-components/boneshoehorn3.3.jpg"), require("../assets/guitar-components/boneshoehorn3.4.jpg")]
           },
           {
             prodId: "RC-BSH-04",
             name: "Black Bone Shoe Horn With Square Chord",
             size1: "All size available",
             size2: "10″(Inch), 8″(Inch), 7″(Inch)",
-            images: [require("../assets/guitar-components/boneshoehorn4.1.jpg"),require("../assets/guitar-components/boneshoehorn4.2.jpg"),require("../assets/guitar-components/boneshoehorn4.3.jpg"),require("../assets/guitar-components/boneshoehorn4.4.jpg")]
+            images: [require("../assets/guitar-components/boneshoehorn4.1.jpg"), require("../assets/guitar-components/boneshoehorn4.2.jpg"), require("../assets/guitar-components/boneshoehorn4.3.jpg"), require("../assets/guitar-components/boneshoehorn4.4.jpg")]
           },
         ],
       },
@@ -4047,31 +4125,31 @@ const ConstantData = [
             name: "Folding Viking Bone Comb With Case",
             size2: "100% Original Bone Combs",
             images: [require("../assets/guitar-components/viking-comb1.1.jpg"), require("../assets/guitar-components/viking-comb1.2.jpg")]
-          },  
+          },
           {
             prodId: "VC-RC-02",
             name: "Curved Holding Viking Bone Comb",
             size2: "100% Original Bone Combs",
             images: [require("../assets/guitar-components/viking-comb2.1.jpg"), require("../assets/guitar-components/viking-comb2.2.jpg")]
-          },      
+          },
           {
             prodId: "VC-RC-03",
             name: "Both Side Teeth Viking Bone Comb",
             size2: "100% Original Bone Combs",
             images: [require("../assets/guitar-components/viking-comb3.1.jpg"), require("../assets/guitar-components/viking-comb3.2.jpg")]
-          },    
+          },
           {
             prodId: "VC-RC-04",
             name: "Tri Angle Head Holding Viking Bone Comb",
             size2: "100% Original Bone Combs",
             images: [require("../assets/guitar-components/viking-comb4.1.jpg")]
-          },    
+          },
           {
             prodId: "VC-RC-05",
             name: "Dou Straight Head Viking Bone Comb",
             size2: "100% Original Bone Combs",
             images: [require("../assets/guitar-components/viking-comb5.jpg")]
-          },  
+          },
         ],
       },
       {
@@ -4132,7 +4210,7 @@ const ConstantData = [
             prodId: "BC-RC-09",
             name: "",
             size2: "100% Original Bone Combs",
-            images: [require("../assets/guitar-components/bone-comb10.1.jpg"), require("../assets/guitar-components/bone-comb10.2.jpg"), require("../assets/guitar-components/bone-comb10.3.jpg"),require("../assets/guitar-components/bone-comb10.4.jpg")]
+            images: [require("../assets/guitar-components/bone-comb10.1.jpg"), require("../assets/guitar-components/bone-comb10.2.jpg"), require("../assets/guitar-components/bone-comb10.3.jpg"), require("../assets/guitar-components/bone-comb10.4.jpg")]
           },
           {
             prodId: "BC-RC-10",
@@ -4150,19 +4228,19 @@ const ConstantData = [
             prodId: "BC-RC-12",
             name: "",
             size2: "100% Original Bone Combs",
-            images: [require("../assets/guitar-components/bone-comb13.1.jpg"), require("../assets/guitar-components/bone-comb13.2.jpg"),require("../assets/guitar-components/bone-comb13.3.jpg"), require("../assets/guitar-components/bone-comb13.4.jpg")]
+            images: [require("../assets/guitar-components/bone-comb13.1.jpg"), require("../assets/guitar-components/bone-comb13.2.jpg"), require("../assets/guitar-components/bone-comb13.3.jpg"), require("../assets/guitar-components/bone-comb13.4.jpg")]
           },
           {
             prodId: "BC-RC-13",
             name: "",
             size2: "100% Original Bone Combs",
-            images: [require("../assets/guitar-components/bone-comb14.1.jpg"), require("../assets/guitar-components/bone-comb14.2.jpg"),require("../assets/guitar-components/bone-comb14.4.jpg"),require("../assets/guitar-components/bonecomblass.jpg")]
+            images: [require("../assets/guitar-components/bone-comb14.1.jpg"), require("../assets/guitar-components/bone-comb14.2.jpg"), require("../assets/guitar-components/bone-comb14.4.jpg"), require("../assets/guitar-components/bonecomblass.jpg")]
           },
           {
             prodId: "BC-RC-14",
             name: "",
             size2: "100% Original Bone Combs",
-            images: [require("../assets/guitar-components/bone-comb15.1.jpg"),require("../assets/guitar-components/bone-comb15.22.jpg"),require("../assets/guitar-components/bone-comb15.3.jpg"),require("../assets/guitar-components/bone-comb15.4.jpg"),require("../assets/guitar-components/bone-comb15.5.jpg")]
+            images: [require("../assets/guitar-components/bone-comb15.1.jpg"), require("../assets/guitar-components/bone-comb15.22.jpg"), require("../assets/guitar-components/bone-comb15.3.jpg"), require("../assets/guitar-components/bone-comb15.4.jpg"), require("../assets/guitar-components/bone-comb15.5.jpg")]
           },
         ],
       },
@@ -4176,49 +4254,49 @@ const ConstantData = [
             prodId: "HC-RC-01",
             name: "Natural Horn Dresser Large Comb",
             size2: "100% Original Horn Combs",
-            images: [require("../assets/guitar-components/horrncomb1.1.jpg"), require("../assets/guitar-components/horrncomb1.2.jpg"),require("../assets/guitar-components/horrncomb1.3.jpg"), require("../assets/guitar-components/horrncomb1.4.jpg")]
+            images: [require("../assets/guitar-components/horrncomb1.1.jpg"), require("../assets/guitar-components/horrncomb1.2.jpg"), require("../assets/guitar-components/horrncomb1.3.jpg"), require("../assets/guitar-components/horrncomb1.4.jpg")]
           },
           {
             prodId: "HC-RC-02",
             name: "Dragon Style Shampoo Horn Comb Large",
             size2: "100% Original Horn Combs",
-            images: [require("../assets/guitar-components/horrncomb2.1.jpg"), require("../assets/guitar-components/horrncomb2.2.jpg"),require("../assets/guitar-components/horrncomb2.3.jpg"), require("../assets/guitar-components/horrncomb2.4.jpg")]
+            images: [require("../assets/guitar-components/horrncomb2.1.jpg"), require("../assets/guitar-components/horrncomb2.2.jpg"), require("../assets/guitar-components/horrncomb2.3.jpg"), require("../assets/guitar-components/horrncomb2.4.jpg")]
           },
           {
             prodId: "HC-RC-03",
             name: "Natural Horn Dresser Comb With Handles",
             size2: "100% Original Horn Combs",
-            images: [require("../assets/guitar-components/horrncomb3.1.jpg"), require("../assets/guitar-components/horrncomb3.2.jpg"),require("../assets/guitar-components/horrncomb3.3.jpg")]
+            images: [require("../assets/guitar-components/horrncomb3.1.jpg"), require("../assets/guitar-components/horrncomb3.2.jpg"), require("../assets/guitar-components/horrncomb3.3.jpg")]
           },
           {
             prodId: "HC-RC-04",
             name: "Natural Horn Dresser Comb With Handles",
             size2: "100% Original Horn Combs",
-            images: [require("../assets/guitar-components/horrncomb4.1.jpg"), require("../assets/guitar-components/horrncomb4.2.jpg"),require("../assets/guitar-components/horrncomb4.3.jpg")]
+            images: [require("../assets/guitar-components/horrncomb4.1.jpg"), require("../assets/guitar-components/horrncomb4.2.jpg"), require("../assets/guitar-components/horrncomb4.3.jpg")]
           },
           {
             prodId: "HC-RC-05",
             name: "Natural Horn Straight Wider Tooth Comb",
             size2: "100% Original Horn Combs",
-            images: [require("../assets/guitar-components/horrncomb5.1.jpg"), require("../assets/guitar-components/horrncomb5.2.jpg"),require("../assets/guitar-components/horrncomb5.3.jpg")]
+            images: [require("../assets/guitar-components/horrncomb5.1.jpg"), require("../assets/guitar-components/horrncomb5.2.jpg"), require("../assets/guitar-components/horrncomb5.3.jpg")]
           },
           {
             prodId: "HC-RC-06",
             name: "Natural Horn Mustache Comb",
             size2: "100% Original Horn Combs",
-            images: [require("../assets/guitar-components/horrncom6.1.jpg"), require("../assets/guitar-components/horrncom6.2.jpg"),require("../assets/guitar-components/horrncom6.3.jpg"),require("../assets/guitar-components/horrncom6.4.jpg")]
+            images: [require("../assets/guitar-components/horrncom6.1.jpg"), require("../assets/guitar-components/horrncom6.2.jpg"), require("../assets/guitar-components/horrncom6.3.jpg"), require("../assets/guitar-components/horrncom6.4.jpg")]
           },
           {
             prodId: "HC-RC-07",
             name: "Natural Horn Small Pocket Comb",
             size2: "100% Original Horn Combs",
-            images: [require("../assets/guitar-components/horrncom7.1.jpg"), require("../assets/guitar-components/horrncom7.2.jpg"),require("../assets/guitar-components/horrncom7.3.jpg")]
+            images: [require("../assets/guitar-components/horrncom7.1.jpg"), require("../assets/guitar-components/horrncom7.2.jpg"), require("../assets/guitar-components/horrncom7.3.jpg")]
           },
           {
             prodId: "HC-RC-08",
             name: "Natural Horn Double Sided Comb",
             size2: "100% Original Horn Combs",
-            images: [require("../assets/guitar-components/horrncom8.1.jpg"), require("../assets/guitar-components/horrncom8.2.jpg"),require("../assets/guitar-components/horrncom8.3.jpg")]
+            images: [require("../assets/guitar-components/horrncom8.1.jpg"), require("../assets/guitar-components/horrncom8.2.jpg"), require("../assets/guitar-components/horrncom8.3.jpg")]
           },
           {
             prodId: "HC-RC-09",
@@ -4252,52 +4330,52 @@ const ConstantData = [
 
   // drinking horn
 
-{
-  head: "Drinking Horn",
-  headslug: 'drinking-horn',
-  dec: "Experience the charm of our beautifully crafted drinking horn, made from genuine buffalo and ox horns. Each horn is meticulously polished and features a brass rim for an elegant finish. These drinking horns are authentic Bovidae horns, carefully removed from the bone core, cleaned, and polished to perfection. Ideal for mead, ale, or your favorite beverage, they add a rustic touch to any gathering. Embrace a piece of history with this unique vessel, perfect for celebrations or as a stunning decorative item. Elevate your drinking experience with a horn that blends tradition and craftsmanship beautifully. Enjoy your beverages in style",
-  mainData: [
-    {
-      id: 57,
-      img: require("../assets/guitar-components/drinking-horn1.jpg"),
-      title: "Drinking Horn",
-      wsize: ["100 ml", "200 ml", "300 ml", "400 ml","500 ml","600 ml","700 ml","800 ml","900 ml","1000 ml", "More Sizes Available As per requirement"],
-      usbData: [
-        {
-          prodId: "DH-RC-01",
-          name: "Plain Drinking Horn",
-          size2: "100% Original Horn Craft",
-          images: [require("../assets/guitar-components/drnkhrn1.jpg")]
-        },  
-        {
-          prodId: "DH-RC-02",
-          name: "Metal Rim and Tip Drinking Horn",
-          size2: "100% Original Horn Craft",
-          images: [require("../assets/guitar-components/drnkhrn2.jpg")]
-        }, 
-        {
-          prodId: "DH-RC-03",
-          name: "Karveen  Drinking Horn",
-          size2: "100% Original Horn Craft",
-          images: [require("../assets/guitar-components/drnkhrn3.jpg")]
-        },
-        {
-          prodId: "DH-RC-04",
-          name: "Blowing Horn",
-          size2: "100% Original Horn Craft",
-          images: [require("../assets/guitar-components/drnkhrn4.jpg")]
-        },
-        {
-          prodId: "DH-RC-05",
-          name: "Powder Horn",
-          size2: "100% Original Horn Craft",
-          images: [require("../assets/guitar-components/drnkhrn5.jpg")]
-        },
-      ],
-    },
-  ],
-},
-// Antique Bone Knife
+  {
+    head: "Drinking Horn",
+    headslug: 'drinking-horn',
+    dec: "Experience the charm of our beautifully crafted drinking horn, made from genuine buffalo and ox horns. Each horn is meticulously polished and features a brass rim for an elegant finish. These drinking horns are authentic Bovidae horns, carefully removed from the bone core, cleaned, and polished to perfection. Ideal for mead, ale, or your favorite beverage, they add a rustic touch to any gathering. Embrace a piece of history with this unique vessel, perfect for celebrations or as a stunning decorative item. Elevate your drinking experience with a horn that blends tradition and craftsmanship beautifully. Enjoy your beverages in style",
+    mainData: [
+      {
+        id: 57,
+        img: require("../assets/guitar-components/drinking-horn1.jpg"),
+        title: "Drinking Horn",
+        wsize: ["100 ml", "200 ml", "300 ml", "400 ml", "500 ml", "600 ml", "700 ml", "800 ml", "900 ml", "1000 ml", "More Sizes Available As per requirement"],
+        usbData: [
+          {
+            prodId: "DH-RC-01",
+            name: "Plain Drinking Horn",
+            size2: "100% Original Horn Craft",
+            images: [require("../assets/guitar-components/drnkhrn1.jpg")]
+          },
+          {
+            prodId: "DH-RC-02",
+            name: "Metal Rim and Tip Drinking Horn",
+            size2: "100% Original Horn Craft",
+            images: [require("../assets/guitar-components/drnkhrn2.jpg")]
+          },
+          {
+            prodId: "DH-RC-03",
+            name: "Karveen  Drinking Horn",
+            size2: "100% Original Horn Craft",
+            images: [require("../assets/guitar-components/drnkhrn3.jpg")]
+          },
+          {
+            prodId: "DH-RC-04",
+            name: "Blowing Horn",
+            size2: "100% Original Horn Craft",
+            images: [require("../assets/guitar-components/drnkhrn4.jpg")]
+          },
+          {
+            prodId: "DH-RC-05",
+            name: "Powder Horn",
+            size2: "100% Original Horn Craft",
+            images: [require("../assets/guitar-components/drnkhrn5.jpg")]
+          },
+        ],
+      },
+    ],
+  },
+  // Antique Bone Knife
   {
     head: "Antique Knife",
     headslug: 'antique-bone-knife',
@@ -4307,33 +4385,33 @@ const ConstantData = [
         id: 55,
         img: require("../assets/guitar-components/CHAKU-4.jpg"),
         title: "Antique Bone Knife",
-        wsize: ["All Kind Antique Bone Knife Available.","Traditionally smooth describes this bright antique bone.","Handle displaying elegant tones ranging light brown.","More Sizes Available As per requirement"],
+        wsize: ["All Kind Antique Bone Knife Available.", "Traditionally smooth describes this bright antique bone.", "Handle displaying elegant tones ranging light brown.", "More Sizes Available As per requirement"],
         usbData: [
           {
             prodId: "RC-ABK-01",
             // name: "Small White Bone Clasp",
             size2: "100% Antique Bone Knife",
-            images: [require("../assets/guitar-components/knife1.jpg"),require("../assets/guitar-components/knife1.1.jpg"),require("../assets/guitar-components/knife1.2.jpg"),require("../assets/guitar-components/knife1.3.jpg"),require("../assets/guitar-components/knife1.4.jpg"),require("../assets/guitar-components/knife1.5.jpg"),require("../assets/guitar-components/knife1.6.jpg"),require("../assets/guitar-components/knife1.7.jpg"),require("../assets/guitar-components/knife1.8.jpg"),require("../assets/guitar-components/knife1.9.jpg"),require("../assets/guitar-components/knife1.10.jpg"),require("../assets/guitar-components/knife1.11.jpg")]
+            images: [require("../assets/guitar-components/knife1.jpg"), require("../assets/guitar-components/knife1.1.jpg"), require("../assets/guitar-components/knife1.2.jpg"), require("../assets/guitar-components/knife1.3.jpg"), require("../assets/guitar-components/knife1.4.jpg"), require("../assets/guitar-components/knife1.5.jpg"), require("../assets/guitar-components/knife1.6.jpg"), require("../assets/guitar-components/knife1.7.jpg"), require("../assets/guitar-components/knife1.8.jpg"), require("../assets/guitar-components/knife1.9.jpg"), require("../assets/guitar-components/knife1.10.jpg"), require("../assets/guitar-components/knife1.11.jpg")]
           },
           {
             prodId: "RC-ABK-02",
             size2: "100% Antique Bone Knife",
-            images: [require("../assets/guitar-components/knife2.jpg"),require("../assets/guitar-components/knife2.1.jpg"),require("../assets/guitar-components/knife2.2.jpg"),require("../assets/guitar-components/knife2.3.jpg"),require("../assets/guitar-components/knife2.4.jpg"),require("../assets/guitar-components/knife2.5.jpg"),require("../assets/guitar-components/knife2.6.jpg"),require("../assets/guitar-components/knife2.7.jpg"),require("../assets/guitar-components/knife2.8.jpg"),require("../assets/guitar-components/knife2.9.jpg"),require("../assets/guitar-components/knife2.10.jpg"),require("../assets/guitar-components/knife2.11.jpg"),require("../assets/guitar-components/knife2.12.jpg")]
+            images: [require("../assets/guitar-components/knife2.jpg"), require("../assets/guitar-components/knife2.1.jpg"), require("../assets/guitar-components/knife2.2.jpg"), require("../assets/guitar-components/knife2.3.jpg"), require("../assets/guitar-components/knife2.4.jpg"), require("../assets/guitar-components/knife2.5.jpg"), require("../assets/guitar-components/knife2.6.jpg"), require("../assets/guitar-components/knife2.7.jpg"), require("../assets/guitar-components/knife2.8.jpg"), require("../assets/guitar-components/knife2.9.jpg"), require("../assets/guitar-components/knife2.10.jpg"), require("../assets/guitar-components/knife2.11.jpg"), require("../assets/guitar-components/knife2.12.jpg")]
           },
           {
             prodId: "RC-ABK-03",
             size2: "100% Antique Bone Knife",
-            images: [require("../assets/guitar-components/knife3.6.jpg"),require("../assets/guitar-components/knife3.jpg"),require("../assets/guitar-components/knife3.1.jpg"),require("../assets/guitar-components/knife3.2.jpg"),require("../assets/guitar-components/knife3.3.jpg"),require("../assets/guitar-components/knife3.4.jpg"),require("../assets/guitar-components/knife3.5.jpg")]
+            images: [require("../assets/guitar-components/knife3.6.jpg"), require("../assets/guitar-components/knife3.jpg"), require("../assets/guitar-components/knife3.1.jpg"), require("../assets/guitar-components/knife3.2.jpg"), require("../assets/guitar-components/knife3.3.jpg"), require("../assets/guitar-components/knife3.4.jpg"), require("../assets/guitar-components/knife3.5.jpg")]
           },
           {
             prodId: "RC-ABK-04",
             size2: "100% Antique Bone Knife",
-            images: [require("../assets/guitar-components/knife4.jpg"),require("../assets/guitar-components/knife4.1.jpg"),require("../assets/guitar-components/knife4.2.jpg")]
+            images: [require("../assets/guitar-components/knife4.jpg"), require("../assets/guitar-components/knife4.1.jpg"), require("../assets/guitar-components/knife4.2.jpg")]
           },
           {
             prodId: "RC-ABK-05",
             size2: "100% Antique Bone Knife",
-            images: [require("../assets/guitar-components/knife6.jpg"),require("../assets/guitar-components/knife6.1.jpg"),require("../assets/guitar-components/knife6.2.jpg"),require("../assets/guitar-components/knife6.3.jpg"),require("../assets/guitar-components/knife6.4.jpg"),require("../assets/guitar-components/knife6.5.jpg"),require("../assets/guitar-components/knife6.6.jpg"),require("../assets/guitar-components/knife6.7.jpg")]
+            images: [require("../assets/guitar-components/knife6.jpg"), require("../assets/guitar-components/knife6.1.jpg"), require("../assets/guitar-components/knife6.2.jpg"), require("../assets/guitar-components/knife6.3.jpg"), require("../assets/guitar-components/knife6.4.jpg"), require("../assets/guitar-components/knife6.5.jpg"), require("../assets/guitar-components/knife6.6.jpg"), require("../assets/guitar-components/knife6.7.jpg")]
           },
           {
             prodId: "RC-ABK-06",
@@ -4346,17 +4424,17 @@ const ConstantData = [
         id: 56,
         img: require("../assets/guitar-components/knife5.4.jpg"),
         title: "Antique Horn Knife",
-        wsize: ["All Kind Antique Horn Knife Available.","Traditionally smooth describes this bright antique Horn.","Handle displaying elegant tones ranging light brown.","More Sizes Available As per requirement"],
+        wsize: ["All Kind Antique Horn Knife Available.", "Traditionally smooth describes this bright antique Horn.", "Handle displaying elegant tones ranging light brown.", "More Sizes Available As per requirement"],
         usbData: [
           {
             prodId: "RC-AHK-01",
             size2: "100% Antique Horn Knife",
-            images: [require("../assets/guitar-components/knife5.jpg"),require("../assets/guitar-components/knife5.1.jpg"),require("../assets/guitar-components/knife5.2.jpg"),require("../assets/guitar-components/knife5.3.jpg"),require("../assets/guitar-components/knife5.4.jpg")]
+            images: [require("../assets/guitar-components/knife5.jpg"), require("../assets/guitar-components/knife5.1.jpg"), require("../assets/guitar-components/knife5.2.jpg"), require("../assets/guitar-components/knife5.3.jpg"), require("../assets/guitar-components/knife5.4.jpg")]
           },
-        
+
         ],
       },
-  
+
     ],
   },
 ];
