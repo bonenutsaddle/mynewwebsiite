@@ -1,46 +1,46 @@
 const OurProductData = [
-  {
-    id: 0,
-    img: require("../assets/ourproductsimages/guitarcomp.png"),
-    name: "Guitar Componenets",
-    subname: "Nut, Saddles, Pics, Bridge Pics, Sliders & Inlay In Bone & Horn"
-  },
-  {
-    id: 1,
-    img: require("../assets/ourproductsimages/DSC_0046.png"),
-    name: "Knife Handle",
-    subname: "Bone, Horn, Wood, X-grip & Recon stone"
-  },
-  {
-    id: 2,
-    img: require("../assets/ourproductsimages/vikingcraft.png"),
-    name: "Viking Craft",
-    subname: "Combs, Drinking Horn, Bone Dice, Etc."
-  },
-  {
-    id: 3,
-    img: require("../assets/ourproductsimages/NAtive.png"),
-    name: "Native American Craft",
-    subname: "Bone & Horn "
-  },
-  {
-    id: 4,
-    img: require("../assets/ourproductsimages/DSC_0001.png"),
-    name: "Teflon Bone Folder",
-    subname: "Bone, Horn, Wood & Teflon"
-  },
-  {
-    id: 5,
-    img: require("../assets/ourproductsimages/cuestickcomponet.png"),
-    name: "Cue Stick Components",
-    subname: "Ferrules, Joint Collar, Butt Caps, Inlay Slabs & Rods and Dowels All Are in Bone & Horn"
-  },
-  {
-    id: 6,
-    img: require("../assets/ourproductsimages/beadscraft.png"),
-    name: "Beads Crafts",
-    subname: "Pandent, Horn Beads, Bone Beads, Wood Beads, Glass Beads Etc..."
-  },
+  // {
+  //   id: 0,
+  //   img: require("../assets/ourproductsimages/guitarcomp.png"),
+  //   name: "Guitar Componenets",
+  //   subname: "Nut, Saddles, Pics, Bridge Pics, Sliders & Inlay In Bone & Horn"
+  // },
+  // {
+  //   id: 1,
+  //   img: require("../assets/ourproductsimages/DSC_0046.png"),
+  //   name: "Knife Handle",
+  //   subname: "Bone, Horn, Wood, X-grip & Recon stone"
+  // },
+  // {
+  //   id: 2,
+  //   img: require("../assets/ourproductsimages/vikingcraft.png"),
+  //   name: "Viking Craft",
+  //   subname: "Combs, Drinking Horn, Bone Dice, Etc."
+  // },
+  // {
+  //   id: 3,
+  //   img: require("../assets/ourproductsimages/NAtive.png"),
+  //   name: "Native American Craft",
+  //   subname: "Bone & Horn "
+  // },
+  // {
+  //   id: 4,
+  //   img: require("../assets/ourproductsimages/DSC_0001.png"),
+  //   name: "Teflon Bone Folder",
+  //   subname: "Bone, Horn, Wood & Teflon"
+  // },
+  // {
+  //   id: 5,
+  //   img: require("../assets/ourproductsimages/cuestickcomponet.png"),
+  //   name: "Cue Stick Components",
+  //   subname: "Ferrules, Joint Collar, Butt Caps, Inlay Slabs & Rods and Dowels All Are in Bone & Horn"
+  // },
+  // {
+  //   id: 6,
+  //   img: require("../assets/ourproductsimages/beadscraft.png"),
+  //   name: "Beads Crafts",
+  //   subname: "Pandent, Horn Beads, Bone Beads, Wood Beads, Glass Beads Etc..."
+  // },
   {
     id: 6,
     img: require("../assets/ourproductsimages/boneclasp.png"),
