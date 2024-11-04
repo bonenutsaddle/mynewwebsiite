@@ -1,10 +1,12 @@
 export const links = [
   {
     name: "Our Products",
+    links:"our-products",
     submenu: true,
     sublinks: [
       {
         Head: "guitar components",
+        linkH:"/our-products-new?productname=guitar",
         sublink: [
           { name: "bone nut", link: "bone-nut" },
           { name: "bone saddle", link: "bone-saddle" },
@@ -19,6 +21,7 @@ export const links = [
       },
       {
         Head: "Knife handles",
+        linkH:"/our-products-new?productname=Knife",
         sublink: [
           { name: "camel bone knife handle ", link: "camel-bone-knife-handle" },
           { name: "water buffalo horn", link: "water-buffalo-horn" },

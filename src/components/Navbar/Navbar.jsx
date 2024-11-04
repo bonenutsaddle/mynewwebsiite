@@ -132,7 +132,7 @@ const Navbar = () => {
               {t('about Us')}
             </Link>
           </li>
-          <NavLinks t={t} handleClick={handleClick} />
+          <NavLinks  t={t} handleClick={handleClick} />
           <li> 
             <Link to="/contact-us" className="py-7 px-1 inline-block hover:text-orange-500" onClick={() => setOpen(false)}>
               {t('contact Us')}

@@ -18,9 +18,9 @@ const NewSearch = () => {
       {OurProductData.map((product) => (
         <div className="col-span-4" key={product.id}>
           <div className="max-w-sm bg-white border box-shadow-bg border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
+            <Link to={`/our-products-new?slug=${product.slug}`}>
               <img className="rounded-t-lg h-[50vh] w-full mx-auto bg-[#E3E3E3]" src={product.img} alt={product.name} />
-            </a>
+            </Link>
             <div className="px-5 pt-5">
               <a href="">
                 <h5 className="mb-2 text-xl text-center font-semibold tracking-tight flex text-[#FF6609E0] dark:text-white">

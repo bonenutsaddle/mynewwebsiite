@@ -11,6 +11,7 @@ import ImageFullVeiw from "./components/pages/product/ImageFullVeiw";
 import SearchResults from "./components/pages/product/SearchResults";
 import NewSearch from "./components/pages/product/NewSearch";
 import Logo from "./assets/footerlogo.png";
+import InsideProductPage from "./components/pages/product/InsideProductPage";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -49,7 +50,8 @@ const App = () => {
         <Route path="/page-details" element={<ImageFullVeiw />} />
         <Route path="/product/details?" element={<PageDetails />} />
         <Route path="/searchproducts" element={<SearchResults />} />
-        <Route path="/newsearch" element={<NewSearch />} />
+        <Route path="/our-products" element={<NewSearch />} />
+        <Route path="/our-products-new?" element={<InsideProductPage />} />
       </Routes>
       <Footer />
     </section>

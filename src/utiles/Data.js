@@ -1,99 +1,129 @@
+import { Link } from "react-router-dom";
+
 const OurProductData = [
-  // {
-  //   id: 0,
-  //   img: require("../assets/ourproductsimages/guitarcomp.png"),
-  //   name: "Guitar Componenets",
-  //   subname: "Nut, Saddles, Pics, Bridge Pics, Sliders & Inlay In Bone & Horn"
-  // },
-  // {
-  //   id: 1,
-  //   img: require("../assets/ourproductsimages/DSC_0046.png"),
-  //   name: "Knife Handle",
-  //   subname: "Bone, Horn, Wood, X-grip & Recon stone"
-  // },
-  // {
-  //   id: 2,
-  //   img: require("../assets/ourproductsimages/vikingcraft.png"),
-  //   name: "Viking Craft",
-  //   subname: "Combs, Drinking Horn, Bone Dice, Etc."
-  // },
-  // {
-  //   id: 3,
-  //   img: require("../assets/ourproductsimages/NAtive.png"),
-  //   name: "Native American Craft",
-  //   subname: "Bone & Horn "
-  // },
-  // {
-  //   id: 4,
-  //   img: require("../assets/ourproductsimages/DSC_0001.png"),
-  //   name: "Teflon Bone Folder",
-  //   subname: "Bone, Horn, Wood & Teflon"
-  // },
-  // {
-  //   id: 5,
-  //   img: require("../assets/ourproductsimages/cuestickcomponet.png"),
-  //   name: "Cue Stick Components",
-  //   subname: "Ferrules, Joint Collar, Butt Caps, Inlay Slabs & Rods and Dowels All Are in Bone & Horn"
-  // },
-  // {
-  //   id: 6,
-  //   img: require("../assets/ourproductsimages/beadscraft.png"),
-  //   name: "Beads Crafts",
-  //   subname: "Pandent, Horn Beads, Bone Beads, Wood Beads, Glass Beads Etc..."
-  // },
+  {
+    id: 0,
+    img: require("../assets/ourproductsimages/guitarcomp.png"),
+    name: "Guitar Componenets",
+    slug: "Guitar-Componenets",
+    subname: "Nut, Saddles, Pics, Bridge Pics, Sliders & Inlay In Bone & Horn",
+    link:"/our-products-new",
+    OurProductInsideData:[
+      {
+        img: require("../assets/ourproductsimages/guitarcomp.png"),
+        name: "Guitar Componenets d,sdnvlsdvnslvsvfnslf",
+        subname: "Nut, Saddles, Pics, Bridge Pics, Sliders & Inlay In Bone & Horn",  
+        insidelink:"/products?headslug=bone-nut",
+      }
+    ]
+  },
+  {
+    id: 1,
+    img: require("../assets/ourproductsimages/DSC_0046.png"),
+    name: "Knife Handle",
+    slug: "Knife-Handle",
+    subname: "Bone, Horn, Wood, X-grip & Recon stone",
+    OurProductInsideData:[
+      {
+        img: require("../assets/ourproductsimages/guitarcomp.png"),
+        name: "newitem",
+        subname: "newitemdetails",  
+        insidelink:"/products?headslug=bone-nut",
+      }
+    ]
+  },
+  {
+    id: 2,
+    img: require("../assets/ourproductsimages/vikingcraft.png"),
+    name: "Viking Craft",
+    subname: "Combs, Drinking Horn, Bone Dice, Etc."
+  },
+  {
+    id: 3,
+    img: require("../assets/ourproductsimages/NAtive.png"),
+    name: "Native American Craft",
+    subname: "Bone & Horn "
+  },
+  {
+    id: 4,
+    img: require("../assets/ourproductsimages/DSC_0001.png"),
+    name: "Teflon Bone Folder",
+    subname: "Bone, Horn, Wood & Teflon"
+  },
+  {
+    id: 5,
+    img: require("../assets/ourproductsimages/cuestickcomponet.png"),
+    name: "Cue Stick Components",
+    subname: "Ferrules, Joint Collar, Butt Caps, Inlay Slabs & Rods and Dowels All Are in Bone & Horn"
+  },
+  {
+    id: 6,
+    img: require("../assets/ourproductsimages/beadscraft.png"),
+    name: "Beads Crafts",
+    subname: "Pandent, Horn Beads, Bone Beads, Wood Beads, Glass Beads Etc..."
+  },
   {
     id: 6,
     img: require("../assets/ourproductsimages/boneclasp.png"),
     name: "Bone Clasps",
-    subname: "Bone Clasps..."
+    subname: "Bone Clasps...",
+    link:"/products?headslug=bone-clasp"
   },
   {
     id: 7,
     img: require("../assets/ourproductsimages/horn-bone-spoon.png"),
     name: "Horn Cutlery Spoon",
-    subname: "Horn Spoon ..."
+    subname: "Horn Spoon ...",
+     link:"#"
   },
   {
     id: 8,
     img: require("../assets/ourproductsimages/piono-organs.png"),
     name: "Piano & Organ Keys",
-    subname: "Only In Bone ..."
+    subname: "Only In Bone ...",
+    link:"#"
   },
   {
     id: 8,
     img: require("../assets/ourproductsimages/homedecor.png"),
     name: "Home Decor",
-    subname: "Bone, Horn & Wood Items ..."
+    subname: "Bone, Horn & Wood Items ...",
+    link:"#"
   },
   {
     id: 9,
     img: require("../assets/ourproductsimages/bone-buttons.png"),
     name: "Bone Button",
-    subname: "Bone Items ..."
+    subname: "Bone Items ...",
+    link:"/products?headslug=stag-bone-button"
   },
   {
     id: 10,
     img: require("../assets/ourproductsimages/bonedominoes.png"),
     name: "Dominoes Set",
-    subname: "Bone & Horn Items ..."
+    subname: "Bone & Horn Items ...",
+    link:"#"
   },
   {
     id: 11,
     img: require("../assets/ourproductsimages/knife-handle.png"),
     name: "Antique Knife Handles",
-    subname: "Bone & Horn Items ..."
+    subname: "Bone & Horn Items ...",
+    link:"#"
   },
   {
     id: 12,
     img: require("../assets/ourproductsimages/shoe-horn.png"),
     name: "Shoe Horn",
-    subname: "In Bone, Horn, & Wood Matter"
+    subname: "In Bone, Horn, & Wood Matter",
+    link:"#"
   },
   {
     id: 13,
     img: require("../assets/ourproductsimages/pen-blank.png"),
     name: "Pen Blank & Turning Scale",
-    subname: "In Bone, Horn, Wood, X-Grip & Recon Stone"
+    subname: "In Bone, Horn, Wood, X-Grip & Recon Stone",
+    link:"#"
   },
 ]
 

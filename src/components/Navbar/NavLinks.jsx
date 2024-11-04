@@ -36,14 +36,15 @@ const NavLinks = ({ handleClick }) => {
 
   return (
     <>
-      {links.map((link) => (
-        <div>
+      {links.map((link,i) => (
+        <div key={i}>
           <div
             className="px-3 text-left md:cursor-pointer group"
             onMouseOver={handleMouseOver}
             onMouseOut={handleMouseOut}
           >
-            <span
+            <Link
+            to={link.links}
               className="py-5 flex justify-between items-center md:pr-0 pr-5 group"
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
@@ -60,7 +61,7 @@ const NavLinks = ({ handleClick }) => {
               <span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
                 <ion-icon name="chevron-down"></ion-icon>
               </span>
-            </span>
+            </Link>
             {link.submenu && (
               <div
                 ref={dropdownRef}
@@ -76,9 +77,9 @@ const NavLinks = ({ handleClick }) => {
                 <div className="bg-white p-5  capitalize grid grid-cols-5 gap-4">
                   {link.sublinks.map((mysublinks, i) => (
                     <div>
-                      <span className="text-sm capitalize font-semibold">
+                      <Link to={mysublinks.linkH} className="text-sm capitalize font-semibold">
                         {mysublinks.Head}
-                      </span>
+                      </Link>
                       {mysublinks.sublink.map((slink) => (
                         <li
                           className={`${i >= 7
